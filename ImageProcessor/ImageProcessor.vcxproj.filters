@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ImageBuffer.cpp" />
+    <ClCompile Include="BmpParser.cpp" />
+    <ClCompile Include="CommandLineParser.cpp" />
+    <ClCompile Include="GrayscaleFilter.cpp">
+      <Filter>Classes\GrayscaleFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="BrightnessContrastFilter.cpp">
+      <Filter>Classes\BrightnessContrastFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="ThresholdFilter.cpp">
+      <Filter>Classes\ThresholdFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvolutionFilter.cpp">
+      <Filter>Classes\ConvolutionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Classes\Histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTransformFilter.cpp">
+      <Filter>Classes\ImageTransformFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipFilter.cpp">
+      <Filter>Classes\FlipFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterDispatcher.cpp">
+      <Filter>Classes\FilterDispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Classes\Logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="ImageBuffer.h" />
+    <ClInclude Include="BmpParser.h" />
+    <ClInclude Include="CommandLineParser.h" />
+    <ClInclude Include="FilterBase.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GrayscaleFilter.h">
+      <Filter>Classes\GrayscaleFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="BrightnessContrastFilter.h">
+      <Filter>Classes\BrightnessContrastFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="ThresholdFilter.h">
+      <Filter>Classes\ThresholdFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvolutionFilter.h">
+      <Filter>Classes\ConvolutionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Histogram.h">
+      <Filter>Classes\Histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTransformFilter.h">
+      <Filter>Classes\ImageTransformFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipFilter.h">
+      <Filter>Classes\FlipFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterDispatcher.h">
+      <Filter>Classes\FilterDispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Classes\Logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{2a69396f-5c24-4e70-99c9-ec7c196d89d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GrayscaleFilter">
+      <UniqueIdentifier>{70060a60-995c-4db8-a40b-e4ed340a00ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\BrightnessContrastFilter">
+      <UniqueIdentifier>{f81ae6cb-4b5f-4b6d-bedd-ec48d65bc6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ThresholdFilter">
+      <UniqueIdentifier>{b5e7c0bb-b591-43fd-a1ac-97f02a8ce2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ConvolutionFilter">
+      <UniqueIdentifier>{c4d8eae7-55b3-4e57-b37e-99fde4936e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Histogram">
+      <UniqueIdentifier>{dfd75cd5-2af9-4eb5-b557-b23aefe5730f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ImageTransformFilter">
+      <UniqueIdentifier>{983a1592-0876-4e5f-a99d-fe6b52821ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FlipFilter">
+      <UniqueIdentifier>{bd9dcf83-b56e-4dc5-9b77-3f203c42039c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\FilterDispatcher">
+      <UniqueIdentifier>{19de0ac3-9f9e-4776-9f6c-9147b48ae223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Logger">
+      <UniqueIdentifier>{92db2d68-b6bc-4633-98aa-1b6d09ce86f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
